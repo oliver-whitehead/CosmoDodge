@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6221E812839356200510642 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221E802839356200510642 /* Tests_iOS.swift */; };
+		F6221E832839356200510642 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221E822839356200510642 /* Tests_iOSLaunchTests.swift */; };
+		F6221E8D2839356200510642 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221E8C2839356200510642 /* Tests_macOS.swift */; };
+		F6221E8F2839356200510642 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221E8E2839356200510642 /* Tests_macOSLaunchTests.swift */; };
+		F6221E902839356200510642 /* Cosmo_DodgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221E682839356000510642 /* Cosmo_DodgeApp.swift */; };
+		F6221E912839356200510642 /* Cosmo_DodgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221E682839356000510642 /* Cosmo_DodgeApp.swift */; };
+		F6221E922839356200510642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221E692839356000510642 /* ContentView.swift */; };
+		F6221E932839356200510642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221E692839356000510642 /* ContentView.swift */; };
+		F6221E942839356200510642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6221E6A2839356200510642 /* Assets.xcassets */; };
+		F6221E952839356200510642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6221E6A2839356200510642 /* Assets.xcassets */; };
+		F6221EA6283935B800510642 /* GameplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6221EA5283935B800510642 /* GameplayKit.framework */; };
+		F6221EA8283935BE00510642 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6221EA7283935BE00510642 /* SpriteKit.framework */; };
+		F6221EAA2839361400510642 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221EA92839361400510642 /* GameScene.swift */; };
+		F6221EAB2839361400510642 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221EA92839361400510642 /* GameScene.swift */; };
+		F6221EAD2839364600510642 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221EAC2839364600510642 /* Player.swift */; };
+		F6221EAE2839364600510642 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221EAC2839364600510642 /* Player.swift */; };
+		F6221EB02839367500510642 /* SpritekitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221EAF2839367500510642 /* SpritekitHelper.swift */; };
+		F6221EB12839367500510642 /* SpritekitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6221EAF2839367500510642 /* SpritekitHelper.swift */; };
+		F6221EB928394BAD00510642 /* Nebula.sks in Resources */ = {isa = PBXBuildFile; fileRef = F6221EB828394BAD00510642 /* Nebula.sks */; };
+		F6221EBA28394BAD00510642 /* Nebula.sks in Resources */ = {isa = PBXBuildFile; fileRef = F6221EB828394BAD00510642 /* Nebula.sks */; };
+		F6221EBF28394C5300510642 /* Stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = F6221EBE28394C5300510642 /* Stars.sks */; };
+		F6221EC028394C5300510642 /* Stars.sks in Resources */ = {isa = PBXBuildFile; fileRef = F6221EBE28394C5300510642 /* Stars.sks */; };
+		F670C12E283B11B900E83612 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = F670C12D283B11B900E83612 /* Explosion.sks */; };
+		F670C12F283B11B900E83612 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = F670C12D283B11B900E83612 /* Explosion.sks */; };
+		F6E465A2283B4BB900BE5757 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = F6E465A1283B4BB900BE5757 /* Shared */; };
+		F6E465A4283B4BCB00BE5757 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E465A3283B4BCB00BE5757 /* MenuScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6221E7D2839356200510642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6221E632839356000510642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6221E6E2839356200510642;
+			remoteInfo = "Cosmo Dodge (iOS)";
+		};
+		F6221E892839356200510642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6221E632839356000510642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6221E742839356200510642;
+			remoteInfo = "Cosmo Dodge (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6221E682839356000510642 /* Cosmo_DodgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmo_DodgeApp.swift; sourceTree = "<group>"; };
+		F6221E692839356000510642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6221E6A2839356200510642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6221E6F2839356200510642 /* Cosmo Dodge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cosmo Dodge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6221E752839356200510642 /* Cosmo Dodge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cosmo Dodge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6221E772839356200510642 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F6221E7C2839356200510642 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6221E802839356200510642 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		F6221E822839356200510642 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		F6221E882839356200510642 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6221E8C2839356200510642 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		F6221E8E2839356200510642 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F6221EA5283935B800510642 /* GameplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameplayKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/GameplayKit.framework; sourceTree = DEVELOPER_DIR; };
+		F6221EA7283935BE00510642 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		F6221EA92839361400510642 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F6221EAC2839364600510642 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F6221EAF2839367500510642 /* SpritekitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritekitHelper.swift; sourceTree = "<group>"; };
+		F6221EB828394BAD00510642 /* Nebula.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Nebula.sks; sourceTree = "<group>"; };
+		F6221EBE28394C5300510642 /* Stars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Stars.sks; sourceTree = "<group>"; };
+		F670C12D283B11B900E83612 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		F6E465A1283B4BB900BE5757 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shared; sourceTree = "<group>"; };
+		F6E465A3283B4BCB00BE5757 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6221E6C2839356200510642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6221EA8283935BE00510642 /* SpriteKit.framework in Frameworks */,
+				F6221EA6283935B800510642 /* GameplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E722839356200510642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E792839356200510642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E852839356200510642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6221E622839356000510642 = {
+			isa = PBXGroup;
+			children = (
+				F6221E672839356000510642 /* Shared */,
+				F6E465A1283B4BB900BE5757 /* Shared */,
+				F6221E762839356200510642 /* macOS */,
+				F6221E7F2839356200510642 /* Tests iOS */,
+				F6221E8B2839356200510642 /* Tests macOS */,
+				F6221E702839356200510642 /* Products */,
+				F6221EA4283935B800510642 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6221E672839356000510642 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F6E465A3283B4BCB00BE5757 /* MenuScene.swift */,
+				F6221E682839356000510642 /* Cosmo_DodgeApp.swift */,
+				F6221E692839356000510642 /* ContentView.swift */,
+				F6221EA92839361400510642 /* GameScene.swift */,
+				F6221EAC2839364600510642 /* Player.swift */,
+				F6221EAF2839367500510642 /* SpritekitHelper.swift */,
+				F6221E6A2839356200510642 /* Assets.xcassets */,
+				F6221EB828394BAD00510642 /* Nebula.sks */,
+				F6221EBE28394C5300510642 /* Stars.sks */,
+				F670C12D283B11B900E83612 /* Explosion.sks */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F6221E702839356200510642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6221E6F2839356200510642 /* Cosmo Dodge.app */,
+				F6221E752839356200510642 /* Cosmo Dodge.app */,
+				F6221E7C2839356200510642 /* Tests iOS.xctest */,
+				F6221E882839356200510642 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6221E762839356200510642 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F6221E772839356200510642 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F6221E7F2839356200510642 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F6221E802839356200510642 /* Tests_iOS.swift */,
+				F6221E822839356200510642 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		F6221E8B2839356200510642 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F6221E8C2839356200510642 /* Tests_macOS.swift */,
+				F6221E8E2839356200510642 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		F6221EA4283935B800510642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6221EA7283935BE00510642 /* SpriteKit.framework */,
+				F6221EA5283935B800510642 /* GameplayKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6221E6E2839356200510642 /* Cosmo Dodge (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6221E982839356200510642 /* Build configuration list for PBXNativeTarget "Cosmo Dodge (iOS)" */;
+			buildPhases = (
+				F6221E6B2839356200510642 /* Sources */,
+				F6221E6C2839356200510642 /* Frameworks */,
+				F6221E6D2839356200510642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cosmo Dodge (iOS)";
+			productName = "Cosmo Dodge (iOS)";
+			productReference = F6221E6F2839356200510642 /* Cosmo Dodge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6221E742839356200510642 /* Cosmo Dodge (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6221E9B2839356200510642 /* Build configuration list for PBXNativeTarget "Cosmo Dodge (macOS)" */;
+			buildPhases = (
+				F6221E712839356200510642 /* Sources */,
+				F6221E722839356200510642 /* Frameworks */,
+				F6221E732839356200510642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cosmo Dodge (macOS)";
+			productName = "Cosmo Dodge (macOS)";
+			productReference = F6221E752839356200510642 /* Cosmo Dodge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6221E7B2839356200510642 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6221E9E2839356200510642 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				F6221E782839356200510642 /* Sources */,
+				F6221E792839356200510642 /* Frameworks */,
+				F6221E7A2839356200510642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6221E7E2839356200510642 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = F6221E7C2839356200510642 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F6221E872839356200510642 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6221EA12839356200510642 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				F6221E842839356200510642 /* Sources */,
+				F6221E852839356200510642 /* Frameworks */,
+				F6221E862839356200510642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6221E8A2839356200510642 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = F6221E882839356200510642 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6221E632839356000510642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F6221E6E2839356200510642 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F6221E742839356200510642 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F6221E7B2839356200510642 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F6221E6E2839356200510642;
+					};
+					F6221E872839356200510642 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F6221E742839356200510642;
+					};
+				};
+			};
+			buildConfigurationList = F6221E662839356000510642 /* Build configuration list for PBXProject "Cosmo Dodge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6221E622839356000510642;
+			productRefGroup = F6221E702839356200510642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6221E6E2839356200510642 /* Cosmo Dodge (iOS) */,
+				F6221E742839356200510642 /* Cosmo Dodge (macOS) */,
+				F6221E7B2839356200510642 /* Tests iOS */,
+				F6221E872839356200510642 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6221E6D2839356200510642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E465A2283B4BB900BE5757 /* Shared in Resources */,
+				F6221EB928394BAD00510642 /* Nebula.sks in Resources */,
+				F670C12E283B11B900E83612 /* Explosion.sks in Resources */,
+				F6221E942839356200510642 /* Assets.xcassets in Resources */,
+				F6221EBF28394C5300510642 /* Stars.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E732839356200510642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6221EBA28394BAD00510642 /* Nebula.sks in Resources */,
+				F670C12F283B11B900E83612 /* Explosion.sks in Resources */,
+				F6221E952839356200510642 /* Assets.xcassets in Resources */,
+				F6221EC028394C5300510642 /* Stars.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E7A2839356200510642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E862839356200510642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6221E6B2839356200510642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6221EAD2839364600510642 /* Player.swift in Sources */,
+				F6221EAA2839361400510642 /* GameScene.swift in Sources */,
+				F6221E922839356200510642 /* ContentView.swift in Sources */,
+				F6E465A4283B4BCB00BE5757 /* MenuScene.swift in Sources */,
+				F6221E902839356200510642 /* Cosmo_DodgeApp.swift in Sources */,
+				F6221EB02839367500510642 /* SpritekitHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E712839356200510642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6221EAE2839364600510642 /* Player.swift in Sources */,
+				F6221EAB2839361400510642 /* GameScene.swift in Sources */,
+				F6221E932839356200510642 /* ContentView.swift in Sources */,
+				F6221E912839356200510642 /* Cosmo_DodgeApp.swift in Sources */,
+				F6221EB12839367500510642 /* SpritekitHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E782839356200510642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6221E832839356200510642 /* Tests_iOSLaunchTests.swift in Sources */,
+				F6221E812839356200510642 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6221E842839356200510642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6221E8F2839356200510642 /* Tests_macOSLaunchTests.swift in Sources */,
+				F6221E8D2839356200510642 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6221E7E2839356200510642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6221E6E2839356200510642 /* Cosmo Dodge (iOS) */;
+			targetProxy = F6221E7D2839356200510642 /* PBXContainerItemProxy */;
+		};
+		F6221E8A2839356200510642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6221E742839356200510642 /* Cosmo Dodge (macOS) */;
+			targetProxy = F6221E892839356200510642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6221E962839356200510642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6221E972839356200510642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F6221E992839356200510642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMRFSAK2G8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YSJ.Cosmo-Dodge";
+				PRODUCT_NAME = "Cosmo Dodge";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6221E9A2839356200510642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMRFSAK2G8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YSJ.Cosmo-Dodge";
+				PRODUCT_NAME = "Cosmo Dodge";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6221E9C2839356200510642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMRFSAK2G8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YSJ.Cosmo-Dodge";
+				PRODUCT_NAME = "Cosmo Dodge";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F6221E9D2839356200510642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMRFSAK2G8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YSJ.Cosmo-Dodge";
+				PRODUCT_NAME = "Cosmo Dodge";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F6221E9F2839356200510642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMRFSAK2G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YSJ.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cosmo Dodge (iOS)";
+			};
+			name = Debug;
+		};
+		F6221EA02839356200510642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMRFSAK2G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YSJ.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cosmo Dodge (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6221EA22839356200510642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMRFSAK2G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YSJ.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Cosmo Dodge (macOS)";
+			};
+			name = Debug;
+		};
+		F6221EA32839356200510642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMRFSAK2G8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "YSJ.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Cosmo Dodge (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6221E662839356000510642 /* Build configuration list for PBXProject "Cosmo Dodge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6221E962839356200510642 /* Debug */,
+				F6221E972839356200510642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6221E982839356200510642 /* Build configuration list for PBXNativeTarget "Cosmo Dodge (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6221E992839356200510642 /* Debug */,
+				F6221E9A2839356200510642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6221E9B2839356200510642 /* Build configuration list for PBXNativeTarget "Cosmo Dodge (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6221E9C2839356200510642 /* Debug */,
+				F6221E9D2839356200510642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6221E9E2839356200510642 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6221E9F2839356200510642 /* Debug */,
+				F6221EA02839356200510642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6221EA12839356200510642 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6221EA22839356200510642 /* Debug */,
+				F6221EA32839356200510642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6221E632839356000510642 /* Project object */;
+}
